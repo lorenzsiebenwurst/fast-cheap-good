@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: monospace;
+}
+
+main {
+  display: grid;
+  grid-gap: 2rem 1rem;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input {
+  height: 2rem;
+  width: 2rem;
+}
